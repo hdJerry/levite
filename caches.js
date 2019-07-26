@@ -1,4 +1,4 @@
-let CACHE_NAME = 'static-cachex';
+let CACHE_NAME = 'static-cache';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

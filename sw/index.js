@@ -7,7 +7,7 @@
 if ('serviceWorker' in navigator) {
    window.addEventListener('load', function() {
 
-  navigator.serviceWorker.register('caches.js')
+  navigator.serviceWorker.register('/caches.js')
   .then((reg)=> {
     if (!navigator.serviceWorker.controller) {
       return;
